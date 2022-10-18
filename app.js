@@ -30,7 +30,6 @@ class App{
         container.appendChild( this.renderer.domElement );
         this.setEnvironment();
 
-        //Add code here to code-along with the video
         this.loadingBar = new LoadingBar()
         this.loadGLTF()
 
